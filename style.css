@@ -1,0 +1,30 @@
+body{
+    background-color: green;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#grid-container{
+    height:700px;
+    width:800px;
+    display:grid;
+    background-color: grey;
+  
+}
+
+.block{
+    border:solid;
+    margin:-1px;
+}
+
+#menu{
+   margin-left: 30px;
+   margin-bottom: 30px;
+}
+
+input{
+    width:30px;
+}
